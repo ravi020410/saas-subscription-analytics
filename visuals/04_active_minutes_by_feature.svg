@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="#FCFCFD"/>
+<text x="32" y="42" font-family="Segoe UI, Arial" font-size="24" font-weight="700" fill="#1F2430">Active minutes by feature</text>
+<text x="32" y="106.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Dashboard</text>
+<rect x="190" y="80" width="590" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="790" y="105.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$963.0K</text>
+<text x="32" y="154.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Collaboration</text>
+<rect x="190" y="128" width="588" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="788" y="153.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$959.9K</text>
+<text x="32" y="202.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Automation</text>
+<rect x="190" y="176" width="586" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="786" y="201.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$957.7K</text>
+<text x="32" y="250.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Export</text>
+<rect x="190" y="224" width="586" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="786" y="249.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$957.3K</text>
+<text x="32" y="298.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Forecasting</text>
+<rect x="190" y="272" width="584" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="784" y="297.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$954.0K</text>
+<text x="32" y="346.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">API</text>
+<rect x="190" y="320" width="576" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="776" y="345.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$940.6K</text>
+</svg>

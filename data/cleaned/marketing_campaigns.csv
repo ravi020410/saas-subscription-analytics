@@ -1,0 +1,301 @@
+campaign_id,campaign,channel,start_date,spend,trial_signups,paid_conversions
+1,Northstar Growth Campaign 001,Paid Search,2023-04-12,26777.06,1684,253
+2,Harbor Growth Campaign 002,Partner,2024-04-13,9408.16,3210,569
+3,Riverbend Growth Campaign 003,Paid Search,2023-01-31,9509.4,1119,279
+4,Atlas Growth Campaign 004,Social,2023-11-04,3847.06,836,164
+5,Apex Growth Campaign 005,Content,2024-10-19,9197.44,3732,461
+6,Harbor Growth Campaign 006,Events,2024-11-12,22031.15,2673,264
+7,Summit Growth Campaign 007,Events,2022-11-17,10168.28,2401,616
+8,Atlas Growth Campaign 008,Content,2023-08-30,12970.79,2724,455
+9,Vertex Growth Campaign 009,Content,2022-12-24,16090.92,3631,479
+10,Apex Growth Campaign 010,Content,2022-11-23,11081.56,932,154
+11,Pioneer Growth Campaign 011,Events,2025-02-15,9596.15,1733,321
+12,Apex Growth Campaign 012,Events,2022-01-16,8653.88,1036,236
+13,Lighthouse Growth Campaign 013,Social,2023-02-25,8337.58,3534,515
+14,Vertex Growth Campaign 014,Content,2025-05-30,8517.57,3557,764
+15,Northstar Growth Campaign 015,Social,2022-10-13,7324.31,2508,559
+16,Summit Growth Campaign 016,Content,2024-01-10,13271.92,1475,184
+17,Pioneer Growth Campaign 017,Content,2024-11-17,11276.0,3365,568
+18,Cedar Growth Campaign 018,Events,2025-08-02,29704.79,823,191
+19,Nimble Growth Campaign 019,Events,2024-04-13,17201.49,2381,666
+20,Lighthouse Growth Campaign 020,Partner,2022-03-24,4926.03,1612,451
+21,Apex Growth Campaign 021,Events,2024-11-12,2501.52,2209,185
+22,Northstar Growth Campaign 022,Partner,2023-10-04,16346.07,3522,719
+23,Cedar Growth Campaign 023,Partner,2023-03-16,8790.17,3883,611
+24,Harbor Growth Campaign 024,Events,2022-02-16,7317.42,2513,311
+25,BrightPath Growth Campaign 025,Partner,2024-11-06,8058.92,2243,407
+26,BrightPath Growth Campaign 026,Social,2023-05-07,13273.24,3342,648
+27,Nimble Growth Campaign 027,Paid Search,2025-07-07,11773.12,2444,602
+28,Summit Growth Campaign 028,Social,2024-02-09,6265.07,382,81
+29,Apex Growth Campaign 029,Partner,2022-05-10,7216.44,619,63
+30,Apex Growth Campaign 030,Paid Search,2024-08-11,21286.46,2337,446
+31,BluePeak Growth Campaign 031,Content,2025-09-15,16271.74,1668,142
+32,Cedar Growth Campaign 032,Events,2024-09-02,18645.13,3557,650
+33,Evergreen Growth Campaign 033,Partner,2023-08-23,10370.92,1451,237
+34,Harbor Growth Campaign 034,Partner,2022-12-31,8188.1,1114,252
+35,Pioneer Growth Campaign 035,Paid Search,2022-09-20,7524.15,3833,390
+36,Cedar Growth Campaign 036,Partner,2022-01-31,8800.54,3770,502
+37,Northstar Growth Campaign 037,Content,2025-06-03,10242.5,2937,304
+38,Summit Growth Campaign 038,Events,2023-08-09,16553.16,121,16
+39,Evergreen Growth Campaign 039,Paid Search,2025-02-03,9838.51,1673,451
+40,Vertex Growth Campaign 040,Events,2025-10-17,11716.99,1021,222
+41,Nimble Growth Campaign 041,Events,2023-07-15,9086.01,1252,149
+42,Vertex Growth Campaign 042,Events,2024-12-12,9905.96,2393,592
+43,BrightPath Growth Campaign 043,Social,2022-04-17,6497.85,2376,651
+44,Atlas Growth Campaign 044,Partner,2022-11-13,9824.09,873,174
+45,Apex Growth Campaign 045,Paid Search,2023-11-04,10145.71,867,199
+46,Northstar Growth Campaign 046,Partner,2022-08-24,10653.36,1896,461
+47,Northstar Growth Campaign 047,Social,2025-08-26,12021.65,990,178
+48,Lighthouse Growth Campaign 048,Partner,2023-11-12,6707.26,1141,119
+49,Riverbend Growth Campaign 049,Paid Search,2023-10-11,2261.18,1352,110
+50,Vertex Growth Campaign 050,Paid Search,2024-08-25,12539.67,1362,339
+51,Nimble Growth Campaign 051,Social,2022-04-08,7609.07,3608,722
+52,Summit Growth Campaign 052,Paid Search,2023-12-15,28646.37,2508,409
+53,Vertex Growth Campaign 053,Partner,2025-04-29,15035.35,2412,556
+54,Riverbend Growth Campaign 054,Partner,2025-01-24,17214.0,698,188
+55,Nimble Growth Campaign 055,Social,2025-05-01,10113.95,3982,676
+56,Harbor Growth Campaign 056,Events,2024-03-09,4085.8,535,44
+57,Apex Growth Campaign 057,Paid Search,2023-12-11,4881.63,2379,268
+58,Nimble Growth Campaign 058,Content,2022-03-10,13316.55,3081,440
+59,Nimble Growth Campaign 059,Partner,2023-12-26,7696.32,2678,249
+60,Northstar Growth Campaign 060,Social,2025-06-29,9994.01,1198,295
+61,BrightPath Growth Campaign 061,Events,2025-05-01,9068.56,843,224
+62,Apex Growth Campaign 062,Content,2025-09-07,11109.25,2022,459
+63,Nimble Growth Campaign 063,Social,2025-04-11,7911.15,3291,559
+64,BluePeak Growth Campaign 064,Social,2023-01-25,10772.03,3859,620
+65,Cedar Growth Campaign 065,Social,2024-06-22,10057.27,1210,252
+66,Nimble Growth Campaign 066,Partner,2022-10-24,6519.7,3836,430
+67,BrightPath Growth Campaign 067,Paid Search,2022-01-09,11506.82,3499,729
+68,Lighthouse Growth Campaign 068,Content,2025-02-17,3076.92,1674,331
+69,Atlas Growth Campaign 069,Content,2023-11-21,8983.41,3637,929
+70,Lighthouse Growth Campaign 070,Events,2023-12-05,4470.63,3915,343
+71,Atlas Growth Campaign 071,Social,2023-05-07,11133.19,1866,341
+72,Nimble Growth Campaign 072,Social,2025-02-14,7441.85,886,176
+73,Atlas Growth Campaign 073,Events,2024-06-08,5308.49,2200,552
+74,BluePeak Growth Campaign 074,Content,2024-08-20,15016.81,796,196
+75,Evergreen Growth Campaign 075,Events,2024-11-25,5657.55,797,186
+76,Vertex Growth Campaign 076,Events,2022-01-08,7151.46,2575,405
+77,Apex Growth Campaign 077,Paid Search,2024-05-21,17106.72,2219,569
+78,Apex Growth Campaign 078,Content,2025-10-05,4933.83,3956,439
+79,BluePeak Growth Campaign 079,Social,2023-02-22,14281.31,3879,823
+80,Lighthouse Growth Campaign 080,Content,2025-09-07,7063.08,521,119
+81,Lighthouse Growth Campaign 081,Paid Search,2023-10-19,3334.34,3917,489
+82,Summit Growth Campaign 082,Events,2022-08-23,5695.06,3563,495
+83,Riverbend Growth Campaign 083,Partner,2025-06-22,12288.57,3377,728
+84,Harbor Growth Campaign 084,Events,2024-12-07,19591.46,1077,282
+85,Apex Growth Campaign 085,Paid Search,2022-10-14,5908.18,3810,1023
+86,Summit Growth Campaign 086,Paid Search,2022-10-22,7727.57,2728,543
+87,BrightPath Growth Campaign 087,Social,2025-06-01,8613.75,366,57
+88,Lighthouse Growth Campaign 088,Paid Search,2025-03-15,4994.28,470,92
+89,Apex Growth Campaign 089,Social,2025-01-08,14162.85,1161,300
+90,Harbor Growth Campaign 090,Partner,2022-09-24,9006.36,2137,363
+91,Atlas Growth Campaign 091,Content,2025-10-04,25566.68,411,115
+92,Northstar Growth Campaign 092,Partner,2025-04-21,13909.77,3035,528
+93,BrightPath Growth Campaign 093,Events,2025-10-06,13470.04,2994,281
+94,Apex Growth Campaign 094,Social,2023-09-05,2410.24,2681,438
+95,Atlas Growth Campaign 095,Paid Search,2025-09-24,12805.77,3861,701
+96,Northstar Growth Campaign 096,Paid Search,2025-02-14,5719.81,3803,618
+97,Riverbend Growth Campaign 097,Paid Search,2023-05-29,7372.52,1770,286
+98,Apex Growth Campaign 098,Events,2025-09-16,15083.98,3510,425
+99,Riverbend Growth Campaign 099,Paid Search,2024-03-21,20854.64,397,68
+100,BluePeak Growth Campaign 100,Social,2023-01-15,11085.91,2244,490
+101,Vertex Growth Campaign 101,Events,2023-07-19,7724.59,1506,364
+102,Northstar Growth Campaign 102,Social,2024-04-25,14302.78,499,104
+103,Harbor Growth Campaign 103,Content,2025-09-21,11797.34,2294,513
+104,Evergreen Growth Campaign 104,Partner,2022-02-04,11880.94,1174,154
+105,Vertex Growth Campaign 105,Content,2025-03-27,11841.91,1337,242
+106,Cedar Growth Campaign 106,Content,2025-03-05,11037.87,749,188
+107,Nimble Growth Campaign 107,Paid Search,2022-10-18,5953.6,360,39
+108,Nimble Growth Campaign 108,Partner,2024-11-12,4850.57,2662,261
+109,Summit Growth Campaign 109,Social,2025-07-12,5599.36,1430,299
+110,Lighthouse Growth Campaign 110,Partner,2023-04-27,4982.35,1065,105
+111,Harbor Growth Campaign 111,Paid Search,2022-03-21,6014.09,2358,310
+112,Evergreen Growth Campaign 112,Social,2025-10-29,9021.3,3730,891
+113,Lighthouse Growth Campaign 113,Partner,2022-04-05,16718.08,1911,347
+114,Pioneer Growth Campaign 114,Paid Search,2022-07-15,7032.65,2898,397
+115,Evergreen Growth Campaign 115,Events,2024-03-16,8599.29,2058,433
+116,Riverbend Growth Campaign 116,Paid Search,2022-09-06,17496.13,1287,167
+117,Evergreen Growth Campaign 117,Events,2024-12-02,2506.65,2318,281
+118,BrightPath Growth Campaign 118,Events,2023-06-27,4316.38,1792,414
+119,Evergreen Growth Campaign 119,Paid Search,2024-06-27,9530.11,1353,135
+120,Vertex Growth Campaign 120,Content,2025-03-14,8291.6,201,54
+121,Harbor Growth Campaign 121,Partner,2023-07-22,22393.6,1081,271
+122,Apex Growth Campaign 122,Content,2023-08-22,12680.9,2587,477
+123,Nimble Growth Campaign 123,Content,2023-01-17,12300.17,1783,258
+124,Vertex Growth Campaign 124,Paid Search,2023-01-22,14106.43,540,54
+125,Pioneer Growth Campaign 125,Events,2023-09-18,8692.93,1383,226
+126,Nimble Growth Campaign 126,Content,2025-10-22,9713.67,2249,184
+127,Harbor Growth Campaign 127,Content,2023-05-18,7134.1,3630,628
+128,Northstar Growth Campaign 128,Partner,2025-01-11,9398.56,378,63
+129,Apex Growth Campaign 129,Events,2022-04-13,15971.13,1297,236
+130,Atlas Growth Campaign 130,Social,2022-06-16,6821.15,3323,792
+131,Summit Growth Campaign 131,Paid Search,2023-03-12,5308.68,519,84
+132,Apex Growth Campaign 132,Paid Search,2024-06-27,4108.37,2079,306
+133,Nimble Growth Campaign 133,Social,2022-05-15,19480.66,255,51
+134,Summit Growth Campaign 134,Paid Search,2022-07-25,8279.97,2644,644
+135,Apex Growth Campaign 135,Content,2022-06-30,6713.35,3217,568
+136,BrightPath Growth Campaign 136,Events,2024-07-04,9672.06,1100,258
+137,Pioneer Growth Campaign 137,Content,2023-04-09,36102.84,3419,369
+138,Harbor Growth Campaign 138,Events,2025-04-05,11606.02,1525,261
+139,Riverbend Growth Campaign 139,Events,2024-09-19,14498.95,2936,415
+140,Summit Growth Campaign 140,Content,2023-02-10,6011.39,3215,486
+141,Apex Growth Campaign 141,Content,2022-10-01,4437.15,2698,411
+142,Evergreen Growth Campaign 142,Paid Search,2025-03-21,13759.91,2331,630
+143,Lighthouse Growth Campaign 143,Content,2024-10-30,10725.69,2084,506
+144,Summit Growth Campaign 144,Partner,2025-03-29,7189.83,3897,352
+145,Nimble Growth Campaign 145,Content,2024-06-13,12167.65,1491,165
+146,Atlas Growth Campaign 146,Events,2025-03-26,4915.57,3805,903
+147,Harbor Growth Campaign 147,Partner,2022-07-16,11653.27,210,37
+148,Atlas Growth Campaign 148,Partner,2024-08-20,6542.0,1840,192
+149,Vertex Growth Campaign 149,Events,2024-10-28,4060.12,2238,556
+150,BluePeak Growth Campaign 150,Content,2024-11-03,28471.56,3263,786
+151,Riverbend Growth Campaign 151,Social,2024-12-24,22253.98,414,52
+152,Cedar Growth Campaign 152,Social,2023-11-06,6620.31,1933,445
+153,Pioneer Growth Campaign 153,Paid Search,2025-03-24,5346.83,937,147
+154,Nimble Growth Campaign 154,Content,2023-07-01,10161.01,1678,401
+155,Nimble Growth Campaign 155,Paid Search,2024-01-24,8193.02,2921,299
+156,Apex Growth Campaign 156,Partner,2022-05-11,7027.5,2513,417
+157,Cedar Growth Campaign 157,Paid Search,2022-07-29,9154.65,2810,743
+158,Pioneer Growth Campaign 158,Social,2022-10-01,7399.16,237,58
+159,Cedar Growth Campaign 159,Partner,2023-06-01,6219.68,3999,410
+160,BluePeak Growth Campaign 160,Paid Search,2025-07-23,11947.08,470,131
+161,Summit Growth Campaign 161,Partner,2025-06-26,6046.88,2482,561
+162,Atlas Growth Campaign 162,Partner,2025-02-26,12830.74,1879,427
+163,Vertex Growth Campaign 163,Paid Search,2023-08-14,7583.14,3421,439
+164,Summit Growth Campaign 164,Events,2023-03-09,8145.08,1378,140
+165,BrightPath Growth Campaign 165,Partner,2023-11-23,4080.0,1719,204
+166,Pioneer Growth Campaign 166,Social,2023-01-09,6926.92,2397,418
+167,Cedar Growth Campaign 167,Events,2024-01-05,3912.82,1453,277
+168,Cedar Growth Campaign 168,Events,2025-06-28,15457.08,1201,97
+169,Pioneer Growth Campaign 169,Social,2025-01-12,4231.28,1178,142
+170,Pioneer Growth Campaign 170,Partner,2024-01-03,9627.21,3469,427
+171,Riverbend Growth Campaign 171,Content,2024-06-29,11248.49,1715,349
+172,Pioneer Growth Campaign 172,Social,2022-11-22,18931.6,3323,824
+173,Vertex Growth Campaign 173,Partner,2023-04-05,31043.97,3443,958
+174,BrightPath Growth Campaign 174,Content,2022-10-19,10911.44,2410,489
+175,Apex Growth Campaign 175,Social,2022-09-29,16352.23,1336,338
+176,Summit Growth Campaign 176,Paid Search,2025-10-04,8851.8,1712,263
+177,Lighthouse Growth Campaign 177,Content,2023-09-24,6338.52,1466,363
+178,Apex Growth Campaign 178,Social,2025-03-24,15645.44,385,98
+179,Cedar Growth Campaign 179,Content,2022-03-15,14182.95,577,127
+180,Evergreen Growth Campaign 180,Paid Search,2025-04-06,15509.16,2610,452
+181,Evergreen Growth Campaign 181,Content,2022-08-24,3436.62,2389,558
+182,BluePeak Growth Campaign 182,Paid Search,2023-06-07,9579.9,3418,392
+183,Cedar Growth Campaign 183,Content,2023-10-04,6265.53,2076,393
+184,Cedar Growth Campaign 184,Social,2024-01-10,8628.58,1038,91
+185,BrightPath Growth Campaign 185,Content,2024-09-10,13676.01,1939,216
+186,Northstar Growth Campaign 186,Partner,2023-05-29,15183.99,2241,536
+187,BluePeak Growth Campaign 187,Paid Search,2022-07-20,10514.86,3301,662
+188,Cedar Growth Campaign 188,Content,2023-07-02,6258.0,2904,797
+189,Nimble Growth Campaign 189,Partner,2022-08-14,9176.64,758,104
+190,BrightPath Growth Campaign 190,Social,2024-11-28,10158.51,1834,260
+191,Vertex Growth Campaign 191,Social,2025-06-22,8999.97,1641,346
+192,Riverbend Growth Campaign 192,Events,2023-06-22,5217.73,1495,150
+193,Nimble Growth Campaign 193,Paid Search,2024-06-24,2259.04,2096,460
+194,Summit Growth Campaign 194,Social,2025-04-21,10770.02,2159,594
+195,BrightPath Growth Campaign 195,Events,2025-02-22,10506.52,2069,408
+196,Harbor Growth Campaign 196,Partner,2024-09-12,5281.85,854,132
+197,Harbor Growth Campaign 197,Social,2024-12-02,10554.06,1509,407
+198,Summit Growth Campaign 198,Events,2023-10-22,9529.81,3193,447
+199,Nimble Growth Campaign 199,Social,2022-07-05,8477.14,1304,338
+200,Cedar Growth Campaign 200,Social,2024-09-06,7710.82,3445,632
+201,Riverbend Growth Campaign 201,Content,2022-12-19,5612.26,1436,127
+202,Summit Growth Campaign 202,Partner,2022-04-10,9721.13,1155,277
+203,Cedar Growth Campaign 203,Events,2024-01-05,7216.71,2265,460
+204,BrightPath Growth Campaign 204,Events,2024-08-16,8800.08,1808,390
+205,Harbor Growth Campaign 205,Content,2023-06-23,11279.11,3727,512
+206,Evergreen Growth Campaign 206,Paid Search,2024-10-27,10409.4,1371,192
+207,Northstar Growth Campaign 207,Events,2023-09-02,17634.78,1716,424
+208,Atlas Growth Campaign 208,Paid Search,2024-07-16,7270.33,180,20
+209,Riverbend Growth Campaign 209,Partner,2023-12-18,8734.5,3649,710
+210,Cedar Growth Campaign 210,Social,2023-02-03,6822.73,1229,302
+211,Lighthouse Growth Campaign 211,Events,2023-05-23,15629.83,3427,917
+212,Lighthouse Growth Campaign 212,Paid Search,2024-10-10,4065.97,1706,328
+213,Cedar Growth Campaign 213,Events,2023-01-21,5390.34,3764,1019
+214,Atlas Growth Campaign 214,Events,2022-01-15,6972.0,3835,667
+215,Evergreen Growth Campaign 215,Partner,2023-01-31,7696.01,1173,248
+216,Nimble Growth Campaign 216,Paid Search,2023-12-31,7243.16,3460,711
+217,Lighthouse Growth Campaign 217,Partner,2022-07-04,6546.93,2107,589
+218,Pioneer Growth Campaign 218,Content,2023-06-13,8049.55,879,101
+219,Apex Growth Campaign 219,Paid Search,2024-05-27,16540.14,1094,198
+220,BrightPath Growth Campaign 220,Paid Search,2024-06-23,10178.43,620,112
+221,Lighthouse Growth Campaign 221,Partner,2024-11-17,4918.23,3179,561
+222,BrightPath Growth Campaign 222,Social,2022-01-21,13089.22,166,24
+223,BrightPath Growth Campaign 223,Paid Search,2024-05-08,6869.11,657,114
+224,Summit Growth Campaign 224,Events,2024-01-19,16041.97,537,45
+225,Pioneer Growth Campaign 225,Content,2024-06-29,6193.29,3637,970
+226,Cedar Growth Campaign 226,Content,2025-07-13,11645.6,3173,600
+227,Pioneer Growth Campaign 227,Content,2022-01-31,13854.39,1684,402
+228,Lighthouse Growth Campaign 228,Events,2022-08-26,7871.39,3400,607
+229,BluePeak Growth Campaign 229,Partner,2023-08-03,7956.93,1734,283
+230,Evergreen Growth Campaign 230,Events,2024-05-02,6689.42,204,30
+231,Northstar Growth Campaign 231,Partner,2023-08-03,13387.28,2611,372
+232,Evergreen Growth Campaign 232,Partner,2023-06-22,15980.23,458,71
+233,BrightPath Growth Campaign 233,Content,2022-01-27,5797.09,1554,213
+234,Riverbend Growth Campaign 234,Content,2023-04-12,14258.11,1559,422
+235,Northstar Growth Campaign 235,Partner,2023-05-27,13119.65,2649,537
+236,BrightPath Growth Campaign 236,Events,2025-04-21,10167.6,1495,251
+237,Northstar Growth Campaign 237,Social,2022-11-23,10320.35,3659,597
+238,Atlas Growth Campaign 238,Content,2022-10-02,13114.63,1419,137
+239,Northstar Growth Campaign 239,Events,2023-01-10,8894.95,3063,682
+240,BluePeak Growth Campaign 240,Paid Search,2024-09-01,14838.92,2092,255
+241,Lighthouse Growth Campaign 241,Content,2025-06-12,9876.5,347,65
+242,Northstar Growth Campaign 242,Paid Search,2023-11-27,12397.04,1198,321
+243,Summit Growth Campaign 243,Partner,2024-07-11,4614.33,1627,217
+244,BluePeak Growth Campaign 244,Events,2024-07-11,8116.72,3133,850
+245,BluePeak Growth Campaign 245,Partner,2025-03-09,7434.78,3950,838
+246,Apex Growth Campaign 246,Events,2023-04-13,10210.7,147,36
+247,Vertex Growth Campaign 247,Content,2022-02-15,4643.02,1604,159
+248,Evergreen Growth Campaign 248,Events,2022-05-25,8890.01,245,32
+249,Atlas Growth Campaign 249,Events,2023-03-20,9053.45,1799,164
+250,BluePeak Growth Campaign 250,Paid Search,2024-07-04,9857.13,3946,897
+251,Summit Growth Campaign 251,Social,2025-06-19,9335.69,1099,291
+252,Evergreen Growth Campaign 252,Social,2024-03-01,5633.05,1690,434
+253,Nimble Growth Campaign 253,Paid Search,2022-09-08,11960.41,2386,364
+254,Riverbend Growth Campaign 254,Partner,2024-03-24,2734.39,3006,566
+255,Vertex Growth Campaign 255,Social,2023-05-22,30628.22,3483,367
+256,Pioneer Growth Campaign 256,Partner,2022-02-19,8736.32,3127,325
+257,BluePeak Growth Campaign 257,Partner,2025-08-30,7623.63,2648,626
+258,Summit Growth Campaign 258,Paid Search,2023-10-10,15546.08,1811,154
+259,Vertex Growth Campaign 259,Content,2022-08-12,11807.74,618,87
+260,Summit Growth Campaign 260,Paid Search,2023-10-30,4306.87,2549,382
+261,Cedar Growth Campaign 261,Events,2025-02-27,2594.61,3911,579
+262,Riverbend Growth Campaign 262,Content,2024-08-29,7032.79,2985,716
+263,Apex Growth Campaign 263,Partner,2022-02-02,14055.5,1898,367
+264,Northstar Growth Campaign 264,Paid Search,2022-03-13,14717.62,3339,417
+265,Vertex Growth Campaign 265,Social,2025-09-12,12013.51,3681,406
+266,BluePeak Growth Campaign 266,Partner,2023-05-25,12727.06,2244,337
+267,Riverbend Growth Campaign 267,Social,2022-12-08,7802.2,1340,339
+268,Apex Growth Campaign 268,Partner,2023-04-28,5649.6,2712,687
+269,Apex Growth Campaign 269,Paid Search,2023-04-29,4653.72,1136,236
+270,Pioneer Growth Campaign 270,Partner,2025-07-02,8725.75,2182,436
+271,Apex Growth Campaign 271,Paid Search,2025-01-01,6058.46,878,214
+272,BrightPath Growth Campaign 272,Events,2022-07-13,3285.37,857,214
+273,BluePeak Growth Campaign 273,Events,2025-05-05,9139.66,2378,609
+274,Atlas Growth Campaign 274,Social,2023-08-05,8285.72,2956,698
+275,Pioneer Growth Campaign 275,Social,2023-10-31,13539.98,2843,327
+276,Summit Growth Campaign 276,Paid Search,2024-06-27,7511.1,3773,443
+277,Vertex Growth Campaign 277,Partner,2024-10-12,3179.88,3196,401
+278,Nimble Growth Campaign 278,Social,2022-01-09,22992.84,1461,307
+279,Riverbend Growth Campaign 279,Paid Search,2023-05-20,16680.83,1921,523
+280,Cedar Growth Campaign 280,Social,2025-10-04,7301.98,2726,616
+281,Apex Growth Campaign 281,Social,2022-08-17,14323.18,1875,197
+282,BrightPath Growth Campaign 282,Events,2025-02-04,13472.98,3922,364
+283,Harbor Growth Campaign 283,Partner,2025-09-05,11986.06,1158,157
+284,Nimble Growth Campaign 284,Partner,2023-10-16,15924.08,2862,286
+285,Apex Growth Campaign 285,Partner,2023-10-05,8645.82,1853,211
+286,Vertex Growth Campaign 286,Paid Search,2023-09-13,11344.55,1564,207
+287,BluePeak Growth Campaign 287,Paid Search,2022-11-12,12685.7,1943,270
+288,Apex Growth Campaign 288,Events,2022-03-20,9485.58,3080,381
+289,Vertex Growth Campaign 289,Paid Search,2025-09-01,6389.5,2206,484
+290,BrightPath Growth Campaign 290,Paid Search,2023-09-13,8215.77,1954,191
+291,Harbor Growth Campaign 291,Paid Search,2023-06-28,12054.95,781,76
+292,BluePeak Growth Campaign 292,Social,2022-10-22,4566.94,2287,626
+293,Nimble Growth Campaign 293,Events,2023-01-17,8336.84,2623,290
+294,Vertex Growth Campaign 294,Paid Search,2022-04-06,6268.06,1952,200
+295,Cedar Growth Campaign 295,Events,2022-03-09,21363.0,1003,276
+296,Cedar Growth Campaign 296,Partner,2025-08-15,12559.11,1963,501
+297,Atlas Growth Campaign 297,Paid Search,2025-01-03,8675.31,1648,331
+298,Summit Growth Campaign 298,Events,2022-02-13,10052.83,1056,149
+299,Harbor Growth Campaign 299,Content,2025-01-28,20346.42,2721,286
+300,Evergreen Growth Campaign 300,Paid Search,2024-07-19,10279.96,3822,460

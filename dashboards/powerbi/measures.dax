@@ -1,0 +1,168 @@
+-- =========================================================================================
+-- SaaS Subscription Analytics - Advanced Power BI DAX Measures Specification
+-- Author: Ravikant Yadav
+-- Description: This file defines the core DAX measures required to calculate
+--              enterprise SaaS metrics in Power BI dashboards.
+-- =========================================================================================
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 1: Monthly Recurring Revenue (MRR)
+-- Calculates the sum of monthly prices for all active subscription accounts.
+-- -----------------------------------------------------------------------------------------
+MRR =
+CALCULATE(
+    SUM(subscriptions[monthly_price]),
+    subscriptions[status] = "Active"
+)
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 2: Annual Recurring Revenue (ARR)
+-- Annualized run rate of our current Monthly Recurring Revenue (MRR).
+-- -----------------------------------------------------------------------------------------
+ARR = [MRR] * 12
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 3: Average Revenue Per User (ARPU)
+-- Computes average spend per active paying customer.
+-- -----------------------------------------------------------------------------------------
+ARPU =
+DIVIDE(
+    [MRR],
+    CALCULATE(
+        DISTINCTCOUNT(subscriptions[user_id]),
+        subscriptions[status] = "Active"
+    ),
+    0
+)
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 4: Month-over-Month (MoM) MRR Growth Rate
+-- Calculates the percentage variance of MRR compared to the previous calendar month.
+-- -----------------------------------------------------------------------------------------
+MRRGrowth =
+VAR CurrentMRR = [MRR]
+VAR PreviousMRR =
+    CALCULATE(
+        [MRR],
+        DATEADD('Calendar'[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(
+        CurrentMRR - PreviousMRR,
+        PreviousMRR,
+        0
+    )
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 5: Logo Churn Rate (%)
+-- Calculates the ratio of churned subscriber logos lost inside the current period
+-- relative to the active subscriber logo pool.
+-- -----------------------------------------------------------------------------------------
+ChurnRate =
+VAR ChurnedLogos =
+    CALCULATE(
+        COUNTROWS(subscriptions),
+        subscriptions[status] = "Churned"
+    )
+VAR ActiveLogos =
+    CALCULATE(
+        COUNTROWS(subscriptions),
+        subscriptions[status] = "Active"
+    )
+RETURN
+    DIVIDE(
+        ChurnedLogos,
+        ActiveLogos + ChurnedLogos,
+        0
+    )
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 6: Net Revenue Retention (NRR)
+-- Calculates how much MRR remains from an existing cohort of subscribers year-over-year or
+-- month-over-month, including expansion MRR (upgrades) and excluding contraction/churn.
+-- -----------------------------------------------------------------------------------------
+NetRevenueRetention =
+VAR StartingMRR =
+    CALCULATE(
+        SUM(payments[amount]),
+        DATEADD('Calendar'[Date], -12, MONTH),
+        payments[payment_status] = "Paid"
+    )
+VAR ExpansionMRR =
+    CALCULATE(
+        SUM(payments[amount]),
+        payments[payment_status] = "Paid"
+    ) - StartingMRR
+VAR ChurnedMRR =
+    CALCULATE(
+        SUM(churn_events[mrr]),
+        DATESBETWEEN('Calendar'[Date], DATEADD(LASTDATE('Calendar'[Date]), -12, MONTH), LASTDATE('Calendar'[Date]))
+    )
+RETURN
+    DIVIDE(
+        StartingMRR + ExpansionMRR - ChurnedMRR,
+        StartingMRR,
+        0
+    )
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 7: Gross Revenue Retention (GRR)
+-- Measures revenue retention excluding expansion revenue, showing the pure stability of the customer base.
+-- -----------------------------------------------------------------------------------------
+GrossRevenueRetention =
+VAR StartingMRR =
+    CALCULATE(
+        SUM(payments[amount]),
+        DATEADD('Calendar'[Date], -12, MONTH),
+        payments[payment_status] = "Paid"
+    )
+VAR ChurnedMRR =
+    CALCULATE(
+        SUM(churn_events[mrr]),
+        DATESBETWEEN('Calendar'[Date], DATEADD(LASTDATE('Calendar'[Date]), -12, MONTH), LASTDATE('Calendar'[Date]))
+    )
+RETURN
+    DIVIDE(
+        StartingMRR - ChurnedMRR,
+        StartingMRR,
+        0
+    )
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 8: Customer Lifetime Value (LTV)
+-- Approximates LTV by dividing ARPU by the Customer Churn Rate.
+-- -----------------------------------------------------------------------------------------
+CustomerLifetimeValue =
+DIVIDE(
+    [ARPU],
+    [ChurnRate],
+    0
+)
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 9: Trial Conversion Rate (%)
+-- Calculates the percentage of trial signups that converted to paid subscribers.
+-- -----------------------------------------------------------------------------------------
+TrialConversionRate =
+DIVIDE(
+    SUM(marketing_campaigns[paid_conversions]),
+    SUM(marketing_campaigns[trial_signups]),
+    0
+)
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 10: Retention Rate (%)
+-- Inverse of the customer churn rate.
+-- -----------------------------------------------------------------------------------------
+RetentionRate = 1 - [ChurnRate]
+
+-- -----------------------------------------------------------------------------------------
+-- Measure 11: Expansion Revenue ($)
+-- Calculates upgrade payment inflows inside the billing engine.
+-- -----------------------------------------------------------------------------------------
+ExpansionRevenue =
+CALCULATE(
+    SUM(payments[amount]),
+    payments[amount] > 0,
+    payments[payment_status] = "Paid"
+)

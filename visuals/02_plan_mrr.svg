@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="#FCFCFD"/>
+<text x="32" y="42" font-family="Segoe UI, Arial" font-size="24" font-weight="700" fill="#1F2430">MRR by plan</text>
+<text x="32" y="106.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Enterprise</text>
+<rect x="190" y="80" width="590" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="790" y="105.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$29.1M</text>
+<text x="32" y="154.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Business</text>
+<rect x="190" y="128" width="158" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="358" y="153.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$7.8M</text>
+<text x="32" y="202.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Growth</text>
+<rect x="190" y="176" width="62" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="262" y="201.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$3.1M</text>
+<text x="32" y="250.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Starter</text>
+<rect x="190" y="224" width="18" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="218" y="249.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">$904.7K</text>
+<text x="32" y="298.6" font-family="Segoe UI, Arial" font-size="14" fill="#1F2430">Free</text>
+<rect x="190" y="272" width="0" height="38" rx="4" fill="#804126" opacity="0.82"/>
+<text x="200" y="297.8" font-family="Consolas, monospace" font-size="13" fill="#464C55">0.0%</text>
+</svg>

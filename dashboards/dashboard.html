@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SaaS Subscription Analytics Dashboard</title>
+  <style>
+    :root { --accent: #804126; --ink: #1F2430; --muted: #6F768A; --line: #E2E5EA; --bg: #F6F7FA; }
+    body { margin: 0; font-family: Segoe UI, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+    header { padding: 28px 36px; background: #fff; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 44px); letter-spacing: 0; }
+    nav { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+    nav a { color: var(--accent); text-decoration: none; font-weight: 600; border: 1px solid var(--line); padding: 8px 10px; border-radius: 6px; background: #fff; }
+    main { padding: 28px 36px 48px; max-width: 1280px; margin: auto; }
+    .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+    .metric { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+    .metric span { display: block; color: var(--muted); font-size: 13px; }
+    .metric strong { display: block; margin-top: 8px; color: var(--accent); font-size: 25px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 18px; margin-top: 24px; }
+    figure { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+    figure img { width: 100%; height: auto; display: block; }
+    figcaption { color: var(--muted); font-size: 13px; margin-top: 8px; }
+    section { margin-top: 28px; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SaaS Subscription Analytics Dashboard</h1>
+    <p>Source-backed local dashboard generated from cleaned synthetic enterprise data.</p>
+    <nav><a href="#executive-overview">Executive Overview</a><a href="#revenue-analytics">Revenue Analytics</a><a href="#subscription-analytics">Subscription Analytics</a><a href="#customer-analytics">Customer Analytics</a><a href="#retention-analytics">Retention Analytics</a><a href="#growth-analytics">Growth Analytics</a></nav>
+  </header>
+  <main>
+    <div class="metrics"><article class="metric"><span>MRR</span><strong>$861.1K</strong></article>
+<article class="metric"><span>ARR</span><strong>$10.3M</strong></article>
+<article class="metric"><span>MRR Growth</span><strong>-0.0</strong></article>
+<article class="metric"><span>Net Revenue Retention</span><strong>1.1</strong></article>
+<article class="metric"><span>Gross Revenue Retention</span><strong>88.2%</strong></article>
+<article class="metric"><span>Churn Rate</span><strong>23.1%</strong></article>
+<article class="metric"><span>Customer Lifetime Value</span><strong>4,884.9</strong></article>
+<article class="metric"><span>ARPU</span><strong>302.0</strong></article></div>
+    <div class="grid"><figure><img src="../visuals/01_monthly_trend.svg" alt="visuals/01_monthly_trend.svg"><figcaption>01 Monthly Trend</figcaption></figure>
+<figure><img src="../visuals/02_plan_mrr.svg" alt="visuals/02_plan_mrr.svg"><figcaption>02 Plan Mrr</figcaption></figure>
+<figure><img src="../visuals/03_usage_by_feature.svg" alt="visuals/03_usage_by_feature.svg"><figcaption>03 Usage By Feature</figcaption></figure>
+<figure><img src="../visuals/04_active_minutes_by_feature.svg" alt="visuals/04_active_minutes_by_feature.svg"><figcaption>04 Active Minutes By Feature</figcaption></figure>
+<figure><img src="../visuals/05_mrr.svg" alt="visuals/05_mrr.svg"><figcaption>05 Mrr</figcaption></figure>
+<figure><img src="../visuals/06_arr.svg" alt="visuals/06_arr.svg"><figcaption>06 Arr</figcaption></figure></div>
+    <section><h2>Executive Overview</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+<section><h2>Revenue Analytics</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+<section><h2>Subscription Analytics</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+<section><h2>Customer Analytics</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+<section><h2>Retention Analytics</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+<section><h2>Growth Analytics</h2><p>Interactive Power BI build spec and local chart assets are mapped to this dashboard page.</p></section>
+    <section>
+      <h2>Sources and methodology</h2>
+      <p>Metrics reconcile to `data/cleaned` CSV files. SQL patterns, notebook analysis, and metric definitions are included in this repository.</p>
+    </section>
+  </main>
+</body>
+</html>

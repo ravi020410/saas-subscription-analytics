@@ -1,0 +1,6 @@
+plan_id,plan_name,monthly_price,target_segment
+1,Free,0,Trial
+2,Starter,29,SMB
+3,Growth,99,SMB
+4,Business,249,Mid-Market
+5,Enterprise,899,Enterprise

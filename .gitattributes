@@ -1,0 +1,12 @@
+# Tell GitHub to treat all HTML dashboard files as auto-generated and exclude them from language statistics
+dashboards/*.html linguist-generated=true
+dashboards/**/*.html linguist-generated=true
+
+# Force SQL files to be detected and displayed as programming language assets
+*.sql linguist-detectable=true
+sql/*.sql linguist-detectable=true
+sql/**/*.sql linguist-detectable=true
+
+# Force Jupyter Notebooks to be detected as primary assets
+*.ipynb linguist-detectable=true
+notebooks/*.ipynb linguist-detectable=true
