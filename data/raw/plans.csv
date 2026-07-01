@@ -1,6 +1,4 @@
-plan_id,plan_name,monthly_price,target_segment
-1,Free,0,Trial
-2,Starter,29,SMB
-3,Growth,99,SMB
-4,Business,249,Mid-Market
-5,Enterprise,899,Enterprise
+plan_id,plan_name,monthly_price,target_segment,max_seats
+101,Basic,15.0,SMB,5
+102,Professional,99.0,Mid-Market,25
+103,Enterprise,499.0,Enterprise,250
